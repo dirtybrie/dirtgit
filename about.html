@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Dirt</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <a href="index.html">HOME</a>
+        <a href="inseparable.html">INSEPARABLE</a>
+        <a href="about.html">ABOUT</a>
+    </div>
+    <div id="main">
+        <div id="slide">
+            <img src="img/header.png">
+        </div>
+        <div id="header">about</div>
+        <h2 align="center">YOUR ACTUALLY ON THIS PAGE?<br> I thought I was the ONLY one who had no life!!!</h2>
+        <table align="center">
+            <tr>
+                <td>
+                    <h3>About the Website</h3>
+                    <p>HOW IT GOT STARTED:</p>
+                     <p>I don't have much in life but this brain I'm gifted with and just so happens I also know a little bit (barely shit) about html, css and js. <br> Make my own website? Why the fuck not!</p>
+                    <br> xxxxx
+                    <br>
+                    <br> 
+                    <p>DIRT & THE ANIMATION:</p>
+                    <p>
+                    Me (and the people in my head) and my better-half are the ones making this happen. Dirt is just a headline for the production and development.  InSeparable is an explicit animated comedy as its main feature. </p>
+                    <p>LEGS AND ARMS:</p>
+                    <p> (Brie Kish/Dirty Brie) I'm doing everything besides all of the voice acting and writing is pretty much just finding shit that me and my lover find hilarious, and very offensive.
+                    Still curious about the everything?
+                    I animate every frame and compose the sound engineering (sound effects, cinematics, theme song, etc.) for the whole project. The storyboard is covered up to even the smallest details. from bios to plotpoints, to punchlines and straight up
+                    shit talk. By myself and Isaiah Zamora.
+                    </p>
+                    <h3>About The Actors</h3>
+                    <img height="200" src="img/me.jpg"> Dirty Brie Kish as Maddie
+                    <p>
+                        I am a young destitute tranny <br> with some astonishing skills and knowledge.<br> However one with knowledge is nothing without<br> application and practice.<br> (Some fuckin' fortune cookie told me that :))
+                    </p>
+                    <img height="200" src="img/JPEG_20201004_124053_1755492176.jpg"> Izaiah Zamora as Sid
+                </td>
+            </tr>
+        </table>
+    
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    document.getElementById("header").style.fontSize = "50px";
+                } else {
+                    document.getElementById("header").style.fontSize = "120px";
+                }
+            }
+        </script>
+</body>
+<p class="cclic">
+    All the content featured in this website is licenced under and in complience with Creative Commons Attribution-ShareAlike 4.0 International License
+    You may not take credit for the content on this website. 
+    You may not use it for commercial purposes. 
+    Your obviously going to find some way to download something you want I just cant believe you'd download this stupid shit. &copy; August, 2020
+</p>
+<footer>
+</footer>
+
+</html>
